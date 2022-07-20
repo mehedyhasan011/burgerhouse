@@ -1,0 +1,454 @@
+/*font link*/
+@font-face{
+	src: url(../fonts/alfaslab/alfaslabone-regular.ttf);
+	font-family: alfaslabone-regular;
+}
+@font-face{
+	src: url(../fonts/bebasneue/bebasneue-bold.ttf);
+	font-family: bebasneue-bold;
+}
+@font-face{
+	src: url(../fonts/bebasneue/bebasneue-regular.ttf);
+	font-family: bebasneue-regular;
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-bold.otf);
+	font-family: montserrat-bold;
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-regular.otf);
+	font-family: montserrat-regular;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* common start */
+body{
+	font-family: montserrat-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/* common end*/
+/*header start*/
+/*header top start*/
+header{
+	background-image: url(../images/header_bg.jpg);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.header_top{
+	padding-top: 30px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 18%;
+}
+.logo img{
+	width: 100%;
+}
+.menuside{
+	float: right;
+	width: 37%;
+}
+.ms_phone{
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+.ph_bike{
+	padding-left: 50%;
+	width: 8%;
+    float: left;
+}
+.ph_bike img{}
+.ph_number{
+	font-family: montserrat-bold;
+	width: 42%;
+    float: right;
+}
+.ph_number p{
+	padding: 8px 0;
+    text-transform: capitalize;
+}
+.ms_menu{
+	display: inline-block;
+    float: right;
+}
+.ms_menu ul{}
+.ms_menu ul li{
+	list-style: none;
+    float: left;
+    text-decoration: none;
+}
+.ms_menu ul li a{
+
+    padding: 0px 33px;
+    font-family: bebasneue-bold;
+    font-size: 23px;
+    color: #3d2514;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.ms_menu ul li a:hover{
+	color: #bf2222;
+}
+.ms_menu ul li:nth-child(4) a{
+	padding-right: 0;
+}
+
+/*header top end*/
+/*header bottom start*/
+.header_bottom{
+	padding: 2.5% 0;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+}
+.hb_content{
+	margin-top: 140px;
+	width: 40%;
+    float: left;
+}
+.hb_content p{
+	padding: 8px 20px;
+    font-family: bebasneue-regular;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px dashed #3d2514;
+}
+.hb_content h1{
+	font-family: alfaslabone-regular;
+	font-size: 115px;
+	text-transform: uppercase;
+	text-shadow: 4px 4px #fee8bc;
+}
+.hb_content h2{
+	font-family: alfaslabone-regular;
+	font-size: 55px;
+	text-transform: uppercase;
+	text-shadow: 4px 4px #fee8bc;
+}
+.hb_img{
+    margin-right: 48px;
+    padding: 23px 0;
+    width: 38%;
+    float: right;
+}
+.hb_img img{
+	width: 100%;
+}
+/*header bottom end*/
+/*header end*/
+/*gallery start*/
+.gallery{
+    padding: 5% 3%;
+    overflow: hidden;
+    font-family: bebasneue-bold;
+}
+.g_left{
+	width: 48%;
+	float: left;
+	position: relative;
+}
+.g_left img{
+	width: 100%;
+}
+.p1{
+	position: absolute;
+    top: 35px;
+    left: 25px;
+    font-size: 25px;
+    color: white;
+}
+.p2{
+	position: absolute;
+    top: 62px;
+    left: 25px;
+    font-size: 47px;
+    color: white;
+}
+.p3{
+	position: absolute;
+    top: 110px;
+    left: 25px;
+    font-size: 47px;
+    color: white;
+}
+.g_right{
+	width: 48%;
+	float: right;
+}
+.gr_up{
+	padding-bottom: 5.4%;
+	position: relative;
+}
+.gr_up img{
+	width: 100%;
+}
+.gr_down{
+	position: relative;
+}
+.gr_down img{
+	width: 100%;
+}
+/*gallery end*/
+/*order start*/
+.container2{
+	margin: 0 auto;
+	width: 95%;
+	overflow: hidden;
+}
+.order{}
+.order_article{
+	text-align: center;
+}
+.order_article h3{
+	padding: 8px 25px;
+    font-family: bebasneue-bold;
+    font-size: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #ffc045;
+}
+.order_article h2{
+	margin: 2% 0 1% 0;
+    font-family: alfaslabone-regular;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.order_article p{
+	padding: 0px 21%;
+    line-height: 27px;
+}
+.order_content{
+	overflow: hidden;
+    text-align: center;
+}
+.single{
+	padding: 5% 0;
+    width: 33.33%;
+    float: left;
+}
+.single img{
+	width: 100%;
+}
+.single h1{
+	font-family: bebasneue-bold;
+	font-size: 38px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.single p{
+	padding: 2% 18%;
+}
+.single button{
+	margin-top: 25px;
+	border: none;
+	background-color: #bf2222;
+}
+.single button a{
+    padding: 16px 43px;
+    font-family: alfaslabone-regular;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+/*order end*/
+/*event start*/
+.container3{
+	margin: 35px auto;
+	width: 80%;
+	overflow: hidden;
+	box-shadow: 6px 15px 20px 0px #b4b4b4;
+}
+.event{
+	margin-top: 40px;
+	padding: 22px;
+	overflow: hidden;
+	border: 1px solid white;
+}
+.e_content{
+	padding-left: 2%;
+	width: 40%;
+	float: left;
+}
+.e_content h3{
+    font-family: bebasneue-bold;
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+.e_content h1{
+	font-family: alfaslabone-regular;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+.e_content p{
+	padding: 5% 0px;
+    padding-right: 30%;
+    line-height: 1.7;
+}
+.e_content img{
+	padding-top: 29%;
+    width: 12%;
+}
+.e_image{
+	width: 50%;
+	float: right;
+}
+.e_image img{
+	width: 100%;
+}
+/*event end*/
+/*reservaton start*/
+.container4{
+	background-image: url(../images/reservation_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.reservation{
+	margin: 0 auto;
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 13%;
+}
+.reservation h3{
+	padding-top: 10%;
+    font-family: bebasneue-bold;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.reservation h1{
+	padding-top: 8px;
+    font-family: alfaslabone-regular;
+    font-size: 49px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.form{
+	padding-top: 14%;
+}
+.form input{
+	margin-right: 25px;
+    margin-bottom: 15px;
+	padding: 2.2% 21% 2.2% 1%;
+	font-family: bebasneue-regular;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.form button{
+	border: none;
+	border-radius: 4px;
+	background-color: #bf2222;
+}
+.form button a{
+	padding: 23px 145px 22px 137px;
+	font-family: alfaslabone-regular;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+/*reservaton end*/
+/*footer start*/
+footer{}
+.container5{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.footer{
+	margin-bottom: 3%;
+	background-image: url(../images/footer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	overflow: hidden;
+	color: white;
+}
+.f_left{
+	width: 40%;
+	float: left;
+	padding-left: 3%;
+}
+.f_left img{
+    padding-top: 15%;
+    padding-bottom: 7%;
+    width: 62%;
+}
+.f_left p{	
+    padding-right: 25%;
+    font-family: montserrat-regular;
+    line-height: 1.7;
+}
+#copyright{
+    padding-top: 28%;
+    padding-bottom: 4%;
+    font-size: 16px;
+    font-family: bebasneue-regular;
+    word-spacing: 2px;
+}
+.f_right{
+	width: 30%;
+	font-family: bebasneue-bold;
+	float: right;
+}
+.fr_location{
+	padding-top: 46%;
+	padding-right: 10%;
+	display: inline-block;
+    overflow: hidden;
+}
+.fr_location img{
+	float: left;
+}
+.fr_location p{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+    float: right;
+}
+.fr_email{
+	padding-top: 15px;
+	display: inline-block;
+    overflow: hidden;
+}
+.fr_email img{
+	float: left;
+}
+.fr_email p{
+	padding-left: 30px;
+    font-size: 20px;
+    float: right;
+}
+.fr_socials{
+	width: 36%;
+    padding-top: 53%;
+    padding-right: 4%;
+    display: inline-block;
+    float: right;
+}
+.fr_socials img{
+	padding-right: 7%;
+	width: 16%;
+}
+/*footer end*/
